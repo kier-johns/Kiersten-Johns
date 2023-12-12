@@ -25,65 +25,126 @@ role: Data Scientist
 #     url: https://www.stanford.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+# bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 # Interests to show in About widget
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Predictive Modeling
+  - Recommender Systems
+  - Marketing Analytics
+  - Education
 
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+    - course: Data Science Immersive
+      institution: General Assembly
+      year: 12/2023
+    - course: BS Secondary Mathematics Education
+      institution: The Pennsylvania State University
+      year: 05/2016
+    # - course: BSc in Artificial Intelligence
+    #   institution: Massachusetts Institute of Technology
+    #   year: 2008
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 skills:
-  - name: Technical
+  - name: Programming Languages
+    color: '#9e96b5'
+    color_border: '#9e96b5'
     items:
       - name: Python
         description: ''
-        percent: 80
+        # percent: 80
         icon: python
         icon_pack: fab
-      - name: Data Science
-        description: ''
-        percent: 100
-        icon: chart-line
-        icon_pack: fas
       - name: SQL
         description: ''
-        percent: 40
+        # percent: 100
         icon: database
         icon_pack: fas
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
+      - name: R
+        description: ''
+        # percent: 40
+        icon: registered
+        icon_pack: fas
+      - name: Git
+        description: ''
+        # percent: 40
+        icon: code-branch
+        icon_pack: fas
+  - name: Machine Learning
+    color: '#786a80'
+    color_border: '#786a80'
     items:
-      - name: Hiking
+      - name: Regression
         description: ''
-        percent: 60
-        icon: person-hiking
+        # percent: 60
+        icon: chart-line
         icon_pack: fas
-      - name: Cats
+      - name: Classification
         description: ''
-        percent: 100
-        icon: cat
+        # percent: 100
+        icon: table
         icon_pack: fas
-      - name: Photography
+      - name: Natural Language Processing
         description: ''
-        percent: 80
-        icon: camera-retro
+        # percent: 80
+        icon: language
+        icon_pack: fas
+      - name: Neural Networks
+        description: ''
+        # percent: 80
+        icon: brain
+        icon_pack: fas
+  - name: Python Libraries
+    color: '#786a80'
+    color_border: '#786a80'
+    items:
+      - name: Numpy
+        description: ''
+        # percent: 60
+        icon: code
+        icon_pack: fas
+      - name: Pandas
+        description: ''
+        # percent: 100
+        icon: paw
+        icon_pack: fas
+      - name: Matplotlib
+        description: ''
+        # percent: 80
+        icon: chart-bar
+        icon_pack: fas
+      - name: Scikit-Learn
+        description: ''
+        # percent: 80
+        icon: calculator
+        icon_pack: fas
+  - name: Software
+    color: '#9e96b5'
+    color_border: '#9e96b5'
+    items:
+      - name: Jupyter Lab
+        description: ''
+        # percent: 80
+        icon: j
+        icon_pack: fab
+      - name: Slack
+        description: ''
+        # percent: 100
+        icon: message
+        icon_pack: fas
+      - name: Google Suite
+        description: ''
+        # percent: 40
+        icon: g
+        icon_pack: fas
+      - name: Zoom
+        description: ''
+        # percent: 40
+        icon: z
         icon_pack: fas
 
 # Social/Academic Networking
@@ -120,5 +181,5 @@ social:
 highlight_name: true
 ---
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Passionate educator turned dynamic data scientist, I am dedicated to transforming raw information into actionable insights. With a strong foundation in mathematics cultivated during my tenure as a high school math teacher, coupled with hands-on experience as a data analyst, I bring a unique blend of analytical rigor and pedagogical skill to the world of data science. As a young professional, I embody the spirit of innovation and collaboration, ready to contribute my skills and enthusiasm to tackle challenges and unlock the potential within data.
 {style="text-align: justify;"}

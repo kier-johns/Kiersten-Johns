@@ -1,4 +1,4 @@
----
+<!-- ---
 title: External Project
 summary: An example of linking directly to an external project website using `external_link`.
 tags:
@@ -12,4 +12,4 @@ external_link: https://example.org
 image:
   caption: Photo by Toa Heftiba on Unsplash
   focal_point: Smart
----
+--- -->

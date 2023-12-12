@@ -71,74 +71,102 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
+        - title: Data Science Immersive
+          company: General Assembly
           company_url: ''
-          company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
-          date_end: ''
+          # company_logo: g
+          location: Remote
+          date_start: '2023-09-11'
+          date_end: '2023-12-13'
           description: |2-
-              Responsibilities include:
+              * Successfully completed a 13-week, 500+ hours course of expert-led instruction in Data Science skills including Python programming, data visualizations, statistical modeling and supervised and unsupervised machine learning.
+              * Conducted exploratory data analysis, created visualizations to understand data, and performed data cleaning and feature engineering on large datasets to prepare for modeling.
+              * Developed projects to apply hands-on learning of building, tuning and evaluating models for regression, classification, ensemble methods, natural language processing, computer vision, and neural networks to develop models that best solve specific business problems.
 
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
+        - title: Marketing Data Analyst
+          company: UMZU
           company_url: ''
-          company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+          # company_logo: org-x
+          location: Remote
+          date_start: '2021-06-21'
+          date_end: '2022-12-29'
+          description: |2-
+              * Conducted in-depth marketing data analysis using 20+ statistical techniques and data visualization tools to identify trends.
+              * Constructed comprehensive reports and dashboards to communicate marketing performance metrics to the members of the marketing team.
+              * Automated daily data pulls using Parabola, giving back 12.5% of a work-day's time.
+
+        - title: Secondary Mathematics Teacher
+          company: Ramona High School
+          company_url: ''
+          # company_logo: org-x
+          location: Ramona, CA
+          date_start: '2018-08-01'
+          date_end: '2021-06-20'
+          description: |2-
+              * Developed and implemented comprehensive lesson plans for Math I, Math II, and PreCalculus courses, fostering an engaging and effective learning environment to 675+ students. 
+              * Integrated technology, such as interactive whiteboards and educational software, to enhance lesson delivery and student engagement.
+              * Collaborated with student success teams to create, launch, and refine engaging and responsive curriculum for students at all levels.
+              * Analyzed student growth and success on a weekly, monthly, and semesterly basis via direct and indirect measures.
+
+        - title: Secondary Mathematics Teacher
+          company: Oceanside Collegiate Academy
+          company_url: ''
+          # company_logo: org-x
+          location: Mt. Pleasant, SC
+          date_start: '2016-08-01'
+          date_end: '2018-06-20'
+          description: |2-
+              * Utilized diverse teaching methods and resources to accommodate various learning styles and ensure student comprehension of mathematical concepts.
+              * Supported and advised over 150 students in grades 9-12 over a 2-year period.
+              * Taught multiple sections of Algebra I, Geometry, Trig/PreCalc, and ACT/SAT Prep.
+
     design:
       columns: '2'
 
 
 
-  - block: accomplishments
-    content:
-      # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-      title: 'Accomplish&shy;ments'
-      subtitle:
-      # Date format: https://docs.hugoblox.com/customization/#date-format
-      date_format: Jan 2006
-      # Accomplishments.
-      #   Add/remove as many `item` blocks below as you like.
-      #   `title`, `organization`, and `date_start` are the required parameters.
-      #   Leave other parameters empty if not required.
-      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
-      items:
-        - certificate_url: https://www.coursera.org
-          date_end: ''
-          date_start: '2021-01-25'
-          description: ''
-          icon: coursera
-          organization: Coursera
-          organization_url: https://www.coursera.org
-          title: Neural Networks and Deep Learning
-          url: ''
-        - certificate_url: https://www.edx.org
-          date_end: ''
-          date_start: '2021-01-01'
-          description: Formulated informed blockchain models, hypotheses, and use cases.
-          icon: edx
-          organization: edX
-          organization_url: https://www.edx.org
-          title: Blockchain Fundamentals
-          url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-        - certificate_url: https://www.datacamp.com
-          date_end: '2020-12-21'
-          date_start: '2020-07-01'
-          description: ''
-          icon: datacamp
-          organization: DataCamp
-          organization_url: https://www.datacamp.com
-          title: 'Object-Oriented Programming in R'
-          url: ''
-    design:
-      columns: '2'
+  # - block: accomplishments
+  #   content:
+  #     # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
+  #     title: 'Accomplish&shy;ments'
+  #     subtitle:
+  #     # Date format: https://docs.hugoblox.com/customization/#date-format
+  #     date_format: Jan 2006
+  #     # Accomplishments.
+  #     #   Add/remove as many `item` blocks below as you like.
+  #     #   `title`, `organization`, and `date_start` are the required parameters.
+  #     #   Leave other parameters empty if not required.
+  #     #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+  #     items:
+  #       - certificate_url: https://www.coursera.org
+  #         date_end: ''
+  #         date_start: '2021-01-25'
+  #         description: ''
+  #         icon: coursera
+  #         organization: Coursera
+  #         organization_url: https://www.coursera.org
+  #         title: Neural Networks and Deep Learning
+  #         url: ''
+  #       - certificate_url: https://www.edx.org
+  #         date_end: ''
+  #         date_start: '2021-01-01'
+  #         description: Formulated informed blockchain models, hypotheses, and use cases.
+  #         icon: edx
+  #         organization: edX
+  #         organization_url: https://www.edx.org
+  #         title: Blockchain Fundamentals
+  #         url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
+  #       - certificate_url: https://www.datacamp.com
+  #         date_end: '2020-12-21'
+  #         date_start: '2020-07-01'
+  #         description: ''
+  #         icon: datacamp
+  #         organization: DataCamp
+  #         organization_url: https://www.datacamp.com
+  #         title: 'Object-Oriented Programming in R'
+  #         url: ''
+  #   design:
+  #     columns: '2'
 
 
 
@@ -189,8 +217,10 @@ sections:
       buttons:
         - name: All
           tag: '*'
-        - name: Deep Learning
-          tag: Deep Learning
+        - name: NLP
+          tag: NLP
+        - name: Predictive Modeling
+          tag: Predict
         - name: Other
           tag: Demo
     design:
@@ -202,14 +232,14 @@ sections:
 
 
 
-  - block: markdown
-    content:
-      title: Gallery
-      subtitle: ''
-      text: |-
-        {{< gallery album="demo" >}}
-    design:
-      columns: '1'
+  # - block: markdown
+  #   content:
+  #     title: Gallery
+  #     subtitle: ''
+  #     text: |-
+  #       {{< gallery album="demo" >}}
+  #   design:
+  #     columns: '1'
 
 
 
@@ -271,39 +301,39 @@ sections:
       title: Contact
       subtitle:
       text: |-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
+        Ready to connect? Please provide the requested information below:
       # Contact (add or remove contact options as necessary)
-      email: test@example.org
-      phone: 888 888 88 88
-      appointment_url: 'https://calendly.com'
+      email: kierstenjohns2@gmail.com
+      phone: 215 378 9401
+      # appointment_url: 'https://calendly.com'
       address:
-        street: 450 Serra Mall
-        city: Stanford
-        region: CA
-        postcode: '94305'
+        street: ''
+        city: Holly Ridge
+        region: NC
+        postcode: '28445'
         country: United States
         country_code: US
-      directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
-      office_hours:
-        - 'Monday 10:00 to 13:00'
-        - 'Wednesday 09:00 to 10:00'
+      # directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
+      # office_hours:
+      #   - 'Monday 10:00 to 13:00'
+      #   - 'Wednesday 09:00 to 10:00'
       # Choose a map provider in `params.yaml` to show a map from these coordinates
       # coordinates:
       #   latitude: '37.4275'
       #   longitude: '-122.1697'  
-      contact_links:
-        - icon: twitter
-          icon_pack: fab
-          name: DM Me
-          link: 'https://twitter.com/Twitter'
-        - icon: skype
-          icon_pack: fab
-          name: Skype Me
-          link: 'skype:echo123?call'
-        - icon: video
-          icon_pack: fas
-          name: Zoom Me
-          link: 'https://zoom.com'
+      # contact_links:
+      #   - icon: twitter
+      #     icon_pack: fab
+      #     name: DM Me
+      #     link: 'https://twitter.com/Twitter'
+      #   - icon: skype
+      #     icon_pack: fab
+      #     name: Skype Me
+      #     link: 'skype:echo123?call'
+      #   - icon: video
+      #     icon_pack: fas
+      #     name: Zoom Me
+      #     link: 'https://zoom.com'
       # Automatically link email and phone or display as text?
       autolink: true
       # Email form provider
