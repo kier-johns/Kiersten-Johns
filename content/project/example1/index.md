@@ -20,7 +20,7 @@ date: '2023-12-07T00:00:00Z'
 #     icon_pack: fab
 #     name: Follow
 #     url: https://twitter.com/georgecushen
-url_code: 'https://github.com/kier-johns/book_recommender_and_classifier'
+url_code: 'https://github.com/kier-johns/book-recommender-and-classifier'
 # url_pdf: ''
 # url_slides: ''
 # url_video: ''
